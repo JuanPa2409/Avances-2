@@ -4,3 +4,27 @@
 .form-btn {
    padding: 10px;
 }
+.trans:hover {
+    filter: opacity(.5);
+}
+
+.Am-txt {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    animation: desaparece 3s infinite;
+    font-size: 30px;
+    padding:40px;
+
+}
+
+@keyframes desaparece {
+    from {
+        width: 0;
+        border-right-color: white;
+    }
+    to {
+        width: 28em;
+        border-right-color: transparent;
+    }
+}
